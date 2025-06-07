@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador(IA)</title>
+    <link rel="stylesheet" type="text/css" href="estilos/estilo.css">
+</head>
+<body class="gerar-page">
+    <header>
+        <div class="header-container">
+            <h1>Gerador(IA)</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><strong>Home</strong></a></li>
+                    <li><a href="gerar.html"><strong>Gerador(IA)</strong></a></li>
+                    <li><a href="galeria.html"><strong>Galeria</strong></a></li>
+                    <li><a href="sobre.html"><strong>Sobre</strong></a></li>
+                    <li><a href="contato.html"><strong>Contato</strong></a></li>      
+                </ul>
+            </nav>
+        </div> 
+    </header>
+
+    <main class="gerador-page">
+        <h2>GERADOR DE IMAGENS (IA)</h2>
+        <section class="instrucoes">
+            <h3>Ao preencher este formulário você pode gerar o conteúdo visual desejado:</h3>
+            <br>
+            <p>Lista de instruções para o uso da ferramenta-</p>
+            <br>
+            <ol>
+                <li>Preencha o formulário abaixo com a descrição do conteúdo desejado</li>
+                <li>Clique em "Gerar imagem" para submeter a sua solicitação</li>
+                <li>Aguarde o tempo necessário para a imagem ser gerada, na seção abaixo do formulário</li>
+            </ol>
+        </section>
+
+        <section class="form-container">
+            <form action="#"> 
+                <label for="descricao">DESCRIÇÃO DA IMAGEM:</label>
+                <input type="text" id="descricao" name="descricao" placeholder="Ex: Imagem de uma garça voando sobre o mar (preto e branco)" required>
+                <button type="submit">GERAR IMAGEM</button>
+            </form>
+            <div class="imagem-gerada">
+                <img id="imagem-gerada" src="../assets/garça-gerador.jpg" alt="Imagem gerada">
+                <p>Imagem gerada a partir da descrição.</p>
+            </div>
+        </section>
+        <p class="voltar"><a href="index.html">VOLTAR PARA HOME</a></p>
+    </main>
+    <footer>
+        <p>&copy; 2025 - Projeto Gerador de Imagens com IA. Todos os direitos reservados.</p>
+    </footer>
+</body>    
+</html>
+
+
+
