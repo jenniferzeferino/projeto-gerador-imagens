@@ -1,1 +1,1 @@
-# projeto-gerador-imagens
+# projeto-gerador-imagens-ia
